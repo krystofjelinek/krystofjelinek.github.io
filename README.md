@@ -1,1 +1,0 @@
-# krystofjelinek.github.io
