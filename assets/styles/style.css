@@ -195,10 +195,11 @@ footer {
 .col-4 {
     object-fit: contain;
     object-position: center;
-    width: calc((100vw /4));
+    width: calc((100vw /4) - 70px);
     height: 350px;
     text-align: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .col-4 img {
@@ -206,6 +207,7 @@ footer {
     height: 350px;
     object-fit: cover;
     object-position: center;
+
 }
 
 .centered {
@@ -511,7 +513,6 @@ footer a {
     .col-4 img {
         object-fit: cover;
         object-position: center;
-        width: calc(100vw - 40px)
     }
 
     .event {
